@@ -1,0 +1,132 @@
+/* global  */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+}
+
+/* MENU */
+#menu li>a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+#menu form>button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* IMAGE */
+.carousel-inner {
+    max-height: 39rem;
+}
+
+/* MAP */
+.map {
+    background-image: url(../img/map.png);
+    width: 100%;
+    height: 500px;
+}
+
+#local {
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+/* TEAM MIAMI */
+#number-local {
+    padding: 0 20px 0 0;
+    height: 48px;
+}
+
+#number-local div {
+    width: 25%;
+}
+
+#number-local div:not(:last-child) {
+    border-right: 2px solid #3f3f3f;
+}
+
+#number-local div:not(:first-child) {
+    margin-left: 20px;
+}
+
+#number-local p {
+    margin: 0;
+}
+
+.wrapper {
+    width: 50%;
+    margin-left: 100px;
+}
+
+/* TEAM MIAMI */
+#section-contact {
+    background-color: #1b244e;
+}
+
+/* CONTACT FORM */
+#container-form {
+    background-color: #FBFAFA;
+}
+
+/* FOOTER */
+footer {
+    background-color: #1b2a4e;
+    min-height: 100px;
+}
+
+footer p {
+    color: #f3f3f3;
+}
+
+#icons i {
+    font-size: 26px;
+    padding: 0 8px;
+    color: #f3f3f3;
+}
+
+/* MEDIA QUERIES ==== LG */
+@media(max-width:1200px) {
+    #local {
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+
+    .wrapper {
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+    }
+}
+
+/* MEDIA QUERIES ==== SM */
+@media(max-width:768px) {
+    #intro, #team {
+        width: 90% !important;
+    }
+
+    .service-row {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    #team p {
+        display: none;
+    }
+
+    #bg-contact {
+        top: -100px;
+    }
+}
+
+/* MEDIA QUERIES ==== EXTRA-SM */
+@media(max-width:576px) {
+    .icon-wrap {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}

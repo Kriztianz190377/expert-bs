@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Expert BS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href=" ./css/style.css">
+
+</head>
+
+<body>
+    <nav class="navbar w- navbar-expand-lg  bg-light p-3" id="menu">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <span class="text-primary fs-5 fw-bold">Expert BS.</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section-contact">Contact us</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="email" placeholder="E-mail" aria-label="Search">
+                    <button class="btn btn-primary btn-primary-outline-success" type="button">
+                        Subscribe
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- *********************** IMAGE SLIDER *********************** -->
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="./img/slide3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="./img/slide2.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- *********************** INTRO *********************** -->
+    <section class="w-50 mx-auto text-center pt-5" id="intro">
+        <h1 class="p-4 fs-2 border-top border-3">A single agency for all your needs
+            <span class="text-primary ">digital marketing</span>
+        </h1>
+        <p class="p-3 fs-4">
+            <span class="text-primary ">Expert BS</span>
+            is the agency where we help you establish your online presence.
+            SEO, web pages, virtual stores, social networks
+        </p>
+    </section>
+
+    <!-- *********************** SERVICES *********************** -->
+
+    <section class="container-fluid">
+        <div class="row w-75 mx-auto my-5 service-row">
+            <div class="col-lg-6 col-md-12 d-flex     
+                icon-wrap">
+                <img src="./img/developing.png" width="180" height="160" alt="developing">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Developing</h3>
+                    <p class="px-4">Development of web, mobile and e-commerce applications</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 d-flex  icon-wrap">
+                <img src="./img/concept.png" width="180" height="160" alt="concept">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Branding</h3>
+                    <p class="px-4">Design, conceptualization and implementation of digital products</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 d-flex icon-wrap">
+                <img src="./img/communication.png" width="180" height="160" alt="communication">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Communications</h3>
+                    <p class="px-4">Development of the communications plan for your client</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 d-flex icon-wrap">
+                <img src="./img/seo.png" width="180" height="160" alt="seo">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">SEO</h3>
+                    <p class="px-4">We analyze the effectiveness and optimize websites</p>
+                </div>
+            </div>
+    </section>
+
+    <!-- *********************** ABOUT US *********************** -->
+
+    <section>
+        <div class="w-75 m-auto text-center " id="team">
+            <h1 class="mb-5 fs-2">Small team with
+                <span class="text-primary">Big results</span>
+            </h1>
+            <p class="fs-4">We are always looking for the right people to work with us</p>
+        </div>
+        <div class="mt-5 text-center">
+            <img class="img-fluid" src="./img/team.jpg" alt="team" srcset="">
+        </div>
+        <div id="local" class="mt-5 border-top border-2 ">
+            <div class="map "></div>
+            <div class="wrapper">
+                <h2>Located in miami florida</h2>
+                <h2 class="text-primary mb-4" id="typewriter"></h2>
+                <p class="fs-5 text-body ">We chose Miami for our office in order to be close to our clients.
+                    We are located in Brickell, the heart and financial
+                    center of Miami, close to the best restaurants,
+                    shops and just 15 minutes from the beaches.
+                    Visit us and you will not
+                    regret it!</p>
+                <section class="d-flex " id="number-local">
+                    <div>
+                        <p class="text-primary fs-5">248</p>
+                        <p>Sunny days</p>
+                    </div>
+                    <div>
+                        <p class="text-primary fs-5">100%</p>
+                        <p>Approved</p>
+                    </div>
+                    <div>
+                        <p class="text-primary fs-5">24 &ordmC</p>
+                        <p>Temperature</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+
+    <!-- ***********************FORM --BG *********************** -->
+
+    <section id="section-contact" class="pt-4 border-bottom border-2 
+    border-secondary pb-5">
+        <div class="container rounded-3 col-lg-4" id="container-form">
+            <div id="title-form" class="text-center">
+                <div><img src="./img/support.png" alt="contact" srcset="" class="w-50 img-fluid"></div>
+                <h2 class="mt-5">Contacts</h2>
+                <p class="">We are here to make your projects come true</p>
+            </div>
+            <form class="container ">
+                <div class="form-group mb-3 ">
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                        placeholder="Enter email" required=>
+                </div>
+                <div class="form-group mb-3">
+                    <input type="text" class="form-control" id="email" aria-describedby="emailHelp"
+                        placeholder="Enter Name" required>
+                </div>
+                <div class="form-group mb-3">
+                    <input type="tel" class="form-control" id="tel" aria-describedby="emailHelp"
+                        placeholder="Enter your phone" required=>
+                </div>
+                <div class="form-group mb-3">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" row="3"
+                        placeholder="Write your message">
+            </textarea>
+                </div>
+                <button type="button" class="btn btn-primary mb-3 w-100 fs-5
+                            text-center">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- ***********************FOOTER *********************** -->
+    <footer class="w-100 d-flex  align-items-center 
+            flex-wrap justify-content-center">
+        <p class="fs-5 px-3 pt-3 text-center">
+            Expert BS. &copy All rights reserved
+            <span class="d-block flex-lg-row">-- Updated 2022-September</span>
+        </p>
+        <div id="icons">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
